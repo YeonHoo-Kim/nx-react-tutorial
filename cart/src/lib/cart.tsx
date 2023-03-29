@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export interface RoutesCartProps {}
 
 const StyledRoutesCart = styled.div`
-  color: pink;
+  color: blue;
 `;
 
 export function RoutesCart(props: RoutesCartProps) {

@@ -11,10 +11,13 @@ const StyledShop = styled.div`
 
 export function Shop(props: ShopProps) {
   return (
-    <StyledShop>
-      <Banner text="Here is a list of products to buy..." />
-      <Link to="/cart">View Cart</Link>
-    </StyledShop>
+    <>
+      <StyledShop>
+        <Banner text="Here is a list of products to buy..." />
+        <Link to="/cart">View Cart</Link>
+      </StyledShop>
+      <div className="bg-indigo-500 p-2 font-mono">Hello!</div>
+    </>
   );
 }
 

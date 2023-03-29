@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { RoutesCart } from '@store/cart';
 import { Route, Routes } from 'react-router-dom';
+import './style.css';
 
 import NxWelcome from './nx-welcome';
 import Shop from './shop/shop';
