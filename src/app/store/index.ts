@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import counterReducer from './modules/counter';
+import loadingReducer from './modules/loading';
 
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    loading: loadingReducer,
     // posts: postsReducer,
     // comments: commentsReducer,
     // users: usersReducer,

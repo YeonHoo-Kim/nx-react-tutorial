@@ -3,6 +3,7 @@ import { Banner } from '@store/shared/ui';
 import { Link } from 'react-router-dom';
 import Counter from '../counter/counter';
 import StatusBar from '../status-bar/status-bar';
+import Loader from '../loader/loader';
 
 /* eslint-disable-next-line */
 export interface ShopProps {}
@@ -14,6 +15,7 @@ const StyledShop = styled.div`
 export function Shop(props: ShopProps) {
   return (
     <>
+      <Loader />
       <StatusBar />
       <Counter />
       <StyledShop>
